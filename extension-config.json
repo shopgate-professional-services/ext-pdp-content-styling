@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate-project/pdp-content-styling",
+  "components": [
+    {
+      "id": "ContentStyles",
+      "path": "frontend/portals/ContentStyles",
+      "target": [
+        "product.description",
+        "product.properties"
+      ],
+      "type": "portals"
+    }
+  ],
+  "configuration": {
+    "contentStyles": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": {
+        "product.description": null,
+        "product.properties": null
+      },
+      "params": {
+        "type": "json",
+        "label": "Styles to apply to portals with content"
+      }
+    }
+  },
+  "steps": []
+}
